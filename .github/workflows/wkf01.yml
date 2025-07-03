@@ -1,0 +1,10 @@
+name: first Workflow
+on: workflow_dispatch
+jobs: 
+  first-job: 
+    runs-on: ubuntu-latest
+    steps: 
+      - name: batman wkf
+        run: echo "I am BATMAN"
+      - name: print wkf
+        run: echo "workflow 101"
